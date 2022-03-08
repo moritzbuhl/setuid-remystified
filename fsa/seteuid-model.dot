@@ -1,0 +1,18 @@
+digraph G {
+"R=0,E=0,S=0"->"R=0,E=0,S=0"[label="seteuid(0)"]
+"R=0,E=0,S=0"->"R=0,E=1000,S=0"[label="seteuid(1000)"]
+"R=0,E=0,S=1000"->"R=0,E=0,S=1000"[label="seteuid(0)"]
+"R=0,E=0,S=1000"->"R=0,E=1000,S=1000"[label="seteuid(1000)"]
+"R=0,E=1000,S=0"->"R=0,E=0,S=0"[label="seteuid(0)"]
+"R=0,E=1000,S=0"->"R=0,E=1000,S=0"[label="seteuid(1000)"]
+"R=0,E=1000,S=1000"->"R=0,E=0,S=1000"[label="seteuid(0)"]
+"R=0,E=1000,S=1000"->"R=0,E=1000,S=1000"[label="seteuid(1000)"]
+"R=1000,E=0,S=0"->"R=1000,E=0,S=0"[label="seteuid(0)"]
+"R=1000,E=0,S=0"->"R=1000,E=1000,S=0"[label="seteuid(1000)"]
+"R=1000,E=0,S=1000"->"R=1000,E=0,S=1000"[label="seteuid(0)"]
+"R=1000,E=0,S=1000"->"R=1000,E=1000,S=1000"[label="seteuid(1000)"]
+"R=1000,E=1000,S=0"->"R=1000,E=0,S=0"[label="seteuid(0)"]
+"R=1000,E=1000,S=0"->"R=1000,E=1000,S=0"[label="seteuid(1000)"]
+"R=1000,E=1000,S=1000"->"R=1000,E=1000,S=1000"[label="seteuid(0)"]
+"R=1000,E=1000,S=1000"->"R=1000,E=1000,S=1000"[label="seteuid(1000)"]
+}
